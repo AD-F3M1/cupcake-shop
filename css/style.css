@@ -165,3 +165,37 @@ li {
     margin-top: -10px;
     padding-bottom: 95px;
 }
+
+.header4 {
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.header5 {
+    padding-top: 50px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgb(244, 244, 244);
+    margin: 0px 372px;
+}
+
+.header5 h6 {
+    font-size: 20px;
+    font-family: none !important;
+    line-height: 29px; 
+}
+
+.header5 p {
+    margin-top: -15px;
+    padding-bottom: 80px;
+}
+
+.header6 p {
+    margin: 40px 372px;
+    color: #ababab;
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px;
+}
