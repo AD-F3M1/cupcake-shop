@@ -1,0 +1,97 @@
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    font-family: lato:
+    color: #696969;
+}
+
+.header {
+    padding: 0px 372px;
+}
+
+.header-inner {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+
+.menu-bar {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+ul {
+    padding-top: 0px;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    color: #696969;
+    position: sticky;
+}
+
+li {
+    padding: 20px;
+}
+
+.header2 {
+    padding: 0px 372px;
+}
+
+.message {
+    text-align: center;
+    background-color: #fff0ef;
+    color: #d82e21;
+    margin: 0px 0px 21.7391px;
+    padding: 15px 15px 15px 60px;
+}
+
+.message p {
+    margin: 15px 0px 22.5px;
+}
+
+
+.second-image img {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-image img {
+    margin-top:190px;
+}
+.fourth-image img {
+    margin-top: -45px;
+    /* padding-left: 475px; */
+}
+
+.message2 {
+    margin-top: -150px;
+    margin-left: 475px;
+}
+.message2 p {
+    font-style: italic;
+    font-size: 24px;
+}
